@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MenuPrincipal">
+   <children>
+      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="606.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Archivos">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Clientes">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Alta de Clientes" />
+                  <MenuItem mnemonicParsing="false" text="Baja de Clientes" />
+                  <MenuItem mnemonicParsing="false" text="Cambio a Clientes" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Productos">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Alta de Productos" />
+                  <MenuItem mnemonicParsing="false" text="Baja de Productos " />
+                  <MenuItem mnemonicParsing="false" text="Cambio en Productos" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Compras">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Clientes Individuales" />
+                  <MenuItem mnemonicParsing="false" text="Empresas" />
+                  <MenuItem mnemonicParsing="false" text="Ambos tipos de Clientes" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Reporte">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Reporte Productos" />
+                  <MenuItem mnemonicParsing="false" text="Reportes Ordenes de Compras" />
+                  <MenuItem mnemonicParsing="false" text="Reporte Clientes" />
+               </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+      <ScrollPane layoutX="36.0" layoutY="66.0" prefHeight="305.0" prefWidth="536.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="321.0" prefWidth="560.0" />
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
